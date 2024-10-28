@@ -17,7 +17,7 @@ export default defineConfig({
     // 继承博客主题(@sugarat/theme)
     extends: blogTheme,
     // 仓库名
-    base: '/sliverflow.github.io/',
+    // base: '/sliverflow.github.io/',
     lang: 'zh-cn',
     title: 'sliverflow',
     description: 'xxxxx',
