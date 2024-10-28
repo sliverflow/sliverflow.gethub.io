@@ -41,9 +41,6 @@ export default defineConfig({
         // 默认文案修改
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '相关文章',
-        lastUpdated: {
-            Text: '上次更新于'
-        },
         // 设置logo
         // logo: '/img/favicon.svg',
         // editLink: {
@@ -53,7 +50,7 @@ export default defineConfig({
         // },
         // 导航栏
         nav: [
-            {text: 'Java', link: '/Java/'},
+            {text: 'Golang', link: '/Golang/'},
         ],
         // github
         socialLinks: [
@@ -64,26 +61,11 @@ export default defineConfig({
         ],
         // 侧边栏
         sidebar: {
-            "/Java/": [
+            "/Golang/": [
                 {
-                    text: 'Java',
+                    text: 'Golang',
                     items: [
-                        {text: 'Java BufferedReader流', link: '/Java/Java BufferedReader流'},
-                        {text: 'Java IO', link: '/Java/Java IO'},
-                        {text: 'Java Optional类', link: '/Java/Java Optional类'},
-                        {text: 'Java Stream', link: '/Java/Java Stream'},
-                        {text: 'Java 双端队列 Deque', link: '/Java/Java 双端队列 Deque'},
-                        {text: 'Java 正则表达式', link: '/Java/Java 正则表达式'},
-                        {text: 'Java 泛型', link: '/Java/Java 泛型'},
-                        {
-                            text: 'Java中为什么使用向上转型而不直接创建子类对象',
-                            link: '/Java/Java中为什么使用向上转型而不直接创建子类对象'
-                        },
-                        {text: 'Java中实现POJO类的序列化', link: '/Java/Java中实现POJO类的序列化'},
-                        {text: 'Java的注解与反射机制', link: '/Java/Java的注解与反射机制'},
-                        {text: 'Java集合框架综述', link: '/Java/Java集合框架综述'},
-                        {text: 'JDBC各个类的详解', link: '/Java/JDBC各个类的详解'},
-                        {text: '初识多线程', link: '/Java/初识多线程'}
+                        {text: "使用 wire 轻松进行依赖注入",link: '/Golang/使用 wire 轻松进行依赖注入'}
                     ]
                 }
             ],
